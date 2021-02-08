@@ -1,0 +1,123 @@
+
+.bar-wrap {
+    overflow-x: auto;
+    padding: 2rem;
+}
+
+#canvas-basic {
+    max-width: 100%;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+#profile-pic {
+    max-width: 100%;
+    width: 230px;
+    height: auto;
+    display: inline-flex;
+    margin: 0 auto;
+    border-radius: 100%;
+
+
+}
+.header-bar{
+    background-color: #1c1c1c;
+    height: 400px;
+}
+.logo{
+    zoom: 0.8;
+}
+@media (max-width: 479px) {
+    .header-bar {
+        height: 300px;
+    }
+    .logo{
+        zoom: 0.6;
+    }
+}
+
+.child {
+    position: absolute;
+    top: 4%;
+}
+
+.parent {
+    position: relative;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.center-screen {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu-text {
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.l-active{
+    font-weight: bold;
+    font-size: 18px;
+    color: deeppink;
+}
+.l-inactive{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+.blog-cards-xl{
+
+    margin-left: 300px !important;
+    margin-right: 300px !important;
+    margin-top: 10px !important;
+    border-style: solid;
+    border-width: thin;
+
+    /*transition: transform 1s;*/
+}
+.blog-cards{
+    width: 420px;
+    height: 320px;
+    margin: 10px;
+    border-style: solid;
+    border-width: thin;
+    /*transition: transform 1s;*/
+}
+/*.blog-cards:hover{*/
+/*    transform: scale(1.1);*/
+/*}*/
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}

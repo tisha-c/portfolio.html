@@ -1,0 +1,367 @@
+<!doctype html>
+	<html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <title>About Me</title>
+	  </head>
+	  <body bgcolor="#212021">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="aboutme.html">About Me</a>
+	  </body>
+	</html>
+
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://amavalankar.github.io/ap_csp2018/portfolio_main.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags always come first -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Projects</title>
+    <link rel="shortcut icon" href="https://amavalankar.github.io/ap_csp2018/images/favicon.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./aditya_files/font-awesome.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./aditya_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="./aditya_files/mdb.min.css" rel="stylesheet">
+
+    <style>
+        .intro-2 {
+            background: #212021;
+            background-size: cover;
+        }
+
+        .view {
+            margin-top: -36px;
+        }
+
+        .navbar {
+            z-index: 1;
+            background-color: transparent;
+        }
+
+        .top-nav-collapse {
+            background-color: #212021;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #212021;
+            }
+        }
+
+        html,
+        body,
+        header,
+        .view {
+            height: 100%;
+        }
+    </style>
+    <style type="text/css">
+        /* Chart.js */
+
+        @-webkit-keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes chartjs-render-animation {
+            from {
+                opacity: 0.99
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .chartjs-render-monitor {
+            -webkit-animation: chartjs-render-animation 0.001s;
+            animation: chartjs-render-animation 0.001s;
+        }
+
+        ul.nav li a,
+        ul.nav li a:visited {
+            color: #00BFA5 !important;
+        }
+
+        ul.nav li a:hover,
+        ul.nav li a:active {
+            color: #BDBDBD !important;
+        }
+
+        ul.nav li.active a {
+            color: #ffffff !important;
+        }
+    </style>
+<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style><style type="text/css">.cc_cursor, body, .ogdlpmhglpejoiomcodnpjnfgcpmgale_default, body, html, input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"], input::-webkit-contacts-auto-fill-button, input:read-only {cursor: url("data:image/png;base64,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") 7 6 , auto !important; }.cc_pointer,[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration, .paper-button, .ytp-progress-bar-container, input[type=submit], :link, :visited, a > *, img, button, ::-webkit-scrollbar-button, .ogdlpmhglpejoiomcodnpjnfgcpmgale_pointer, ::-webkit-file-upload-button, button, .ytp-volume-panel, #myogdlpmhglpejoiomcodnpjnfgcpmgale .icon { cursor: url("data:image/png;base64,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") 27 5, auto !important; } </style></head>
+
+<body aria-busy="true" data-new-gr-c-s-check-loaded="14.993.0" data-gr-ext-installed="">
+
+    <!--Main Navigation-->
+    <header>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="https://tisha-c.github.io/index.html/"><strong>Tisha Chowdhury</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect waves-light" href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html">Portfolio <span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="view intro-2">
+            <div class="full-bg-img">
+                <div class="mask rgba-blue-slight flex-center cc_cursor">
+                    <div class="container">
+                        <div class="white-text text-center wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <h1><strong>Portfolio</strong></h1>
+                            <h5>AP Computer Science Principles Portfolio (2021)</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main Layout-->
+    <main class="text-center py-5 mt-3">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                </p></div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="card-deck ml-5 mr-5 mt-5 mb-5">
+
+        <!-- Card -->
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/scratch-og.png" alt="Card image cap">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert Text Here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://scratch.mit.edu/projects/245620496/" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Go to Project</strong></button></a>
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/PaintPotAllBlocks.png" ="card="" image="" cap"="">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert text here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://goo.gl/zfdJ5L" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Download Project</strong></button></a>
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/repl-walkthrough-labels.png" ="card="" image="" cap"="">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert text here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://repl.it/@AdityaMavalanka/KillingOfBirmingham" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Go to Project</strong></button></a>
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/Picture3.png" ="card="" image="" cap"="">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert text here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://drive.google.com/file/d/1xFCTar5KrDYu8HuDNt29Es6sdGJLi2m3/view?usp=sharing" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Learn More</strong></button></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="card-deck ml-5 mr-5 mt-5 mb-5">
+
+        <!-- Card -->
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/repl-walkthrough-labels.png" ="card="" image="" cap"="">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert text here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://repl.it/@AdityaMavalanka/RockPaperScissors" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Go to Project</strong></button></a>
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/Picture3.png" ="card="" image="" cap"="">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert text here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://drive.google.com/file/d/1CaE3W-7uicC1gYcNU81koyWscOQglIHI/view?usp=sharing" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Learn More</strong></button></a>
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card elegant-color white-text mb-4 wow fadeIn z-depth-2 animated" style="visibility: visible; animation-name: fadeIn;">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="card-img-top" src="./aditya_files/viz-libraries-04.png" ="card="" image="" cap"="">
+                <a href="https://amavalankar.github.io/ap_csp2018/portfolio_main.html#!">
+                    <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title"><strong>Project</strong></h4>
+                <!--Text-->
+                <p class="card-text-white">Insert text here</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="https://drive.google.com/file/d/12TebuU6XiokiVBCy8fYwpdxSvWRkgizp/view?usp=sharing" target="_blank"><button type="button" class="btn btn-grey btn-md  waves-effect waves-light"><strong>Learn More</strong></button></a>
+
+            </div>
+
+        </div>
+        <!-- Card -->
+
+    </div>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="./aditya_files/jquery-3.3.1.min.js.download"></script>
+
+    <!-- Tooltips -->
+    <script type="text/javascript" src="./aditya_files/popper.min.js.download"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./aditya_files/bootstrap.min.js.download"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./aditya_files/mdb.min.js.download"></script><div class="hiddendiv common"></div>
+    <div class="hiddendiv common"></div>
+    <script>
+        wow = new WOW().init();
+    </script>
+
+
+
+</body></html>
